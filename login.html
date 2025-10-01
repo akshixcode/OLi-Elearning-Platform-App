@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up | BrainyBuffs Academy</title>
+    <title>Sign Up | OLiEd Academy</title>
     <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/feather-icons"></script>
@@ -206,17 +206,17 @@
     <script>
         feather.replace();
         
-        // User database simulation using localStorage
+      
         function initializeUserDatabase() {
             if (!localStorage.getItem('brainybuffs_users')) {
-                // Initialize with some sample users
+               
                 const sampleUsers = [
                     {
                         id: 1,
                         firstName: 'Demo',
                         lastName: 'Student',
                         email: 'student@brainybuffs.com',
-                        password: 'password123', // In a real app, this would be hashed
+                        password: 'password123',
                         userType: 'student',
                         createdAt: new Date().toISOString(),
                         isActive: true
@@ -592,4 +592,5 @@
         });
     </script>
 </body>
+
 </html>
